@@ -1,5 +1,7 @@
 import React from 'react';
 import { Provider } from 'react-redux';
+
+import './config/ReactotronConfig';
 import { BrowserRouter } from 'react-router-dom';
 import Routes from './routes';
 import Header from './components/Header';
