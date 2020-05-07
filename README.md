@@ -1,68 +1,92 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <a href="" rel="noopener">
+ <img width=300px src="https://user-images.githubusercontent.com/26093830/81328962-2768b100-9074-11ea-9277-57bdbb888170.PNG" alt="Project logo" style="border-radius:10px"></a>
+</p>
 
-## Available Scripts
+<h3 align="center">Rocketshoes</h3>
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+<p align="justify">
+This software is a demonstration for an online shoes store.
+<br>
+<div align="center">
+<img src="https://user-images.githubusercontent.com/26093830/81328954-259eed80-9074-11ea-850c-78eed4d21f39.PNG" width="600px" >
+<img src="https://user-images.githubusercontent.com/26093830/81328961-26d01a80-9074-11ea-9dd1-8cd0f6fb402f.PNG" width="600px" >
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## 📝 Table of Contents
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- [About](#about)
+- [Getting Started](#getting_started)
+- [Built Using](#built_using)
+- [Acknowledgments](#acknowledgement)
+- [Author](#author)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🧐 About <a name = "about"></a>
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+This is a demonstration for an online shoes store. This demonstration does not have
+a real backend server, it users a library to generate a server using a json file.
+There is a demo version of this web app in the following link
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+[Demonstration](https://rocketshoes.lucasrego.com)
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🏁 Getting Started <a name = "getting_started"></a>
 
-### Code Splitting
+These instructions will get you a copy of the project up and running on your local machine for development.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+### Prerequisites
 
-### Analyzing the Bundle Size
+You will need to have installe in your machine NodeJs.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+### Installing
 
-### Making a Progressive Web App
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
 
-### Advanced Configuration
+To install the app in your development environment, these are the steps required:
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
 
-### Deployment
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+```
+git clone https://github.com/lucasraziel/Rocketshoes.git rocketshoes
 
-### `npm run build` fails to minify
+cd rocketshoes
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+yarn
+
+yarn global add json-server
+
+json-server server.json --watch
+
+yarn start
+
+```
+
+
+
+
+
+## ⛏️ Built Using <a name = "built_using"></a>
+
+
+- [Express](https://expressjs.com/) - Server Framework
+- [ReactJS](https://reactjs.org/) - Web Framework
+- [NodeJs](https://nodejs.org/en/) - Server Environment
+
+
+
+# Author <a name = "author"></a>
+
+Lucas Rego [GitHub](https://github.com/lucasraziel) [Resume](https://lucasrego.com)
+
+
+
